@@ -1,0 +1,11 @@
+# OASIS_START
+# DO NOT EDIT (digest: af701ada5e3abf3756d9d46c3e62c0df)
+version = "1.0.0"
+description = "Persistent arrays"
+archive(byte) = "parray.cma"
+archive(byte, plugin) = "parray.cma"
+archive(native) = "parray.cmxa"
+archive(native, plugin) = "parray.cmxs"
+exists_if = "parray.cma"
+# OASIS_STOP
+
