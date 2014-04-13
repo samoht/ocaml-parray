@@ -1,0 +1,13 @@
+OASISFormat: 0.4
+Name:        parray
+Version:     1.0.0
+Synopsis:    Persistent arrays
+Authors:     Jean-Christophe Filliatre
+License:     LGPL
+Plugins:     META (0.3), DevFiles (0.3)
+BuildTools:  ocamlbuild
+
+Library parray
+  Path: lib/
+  Findlibname: parray
+  Modules: Parray
